@@ -53,7 +53,7 @@ Run:
 bash images_generation.sh
 ```
 
-**Generated images:**  Will update soon
+**Generated images:**  [Link](https://iiithydresearch-my.sharepoint.com/:u:/g/personal/ashok_u_research_iiit_ac_in/IQCOUVqFSoZJQpUxaHWHHOyNAcL_byLqQGnt5YQxOgsyRp4?e=CeV2fg)
 
 ---
 
