@@ -1,10 +1,15 @@
-# MapRoute-plus-plus
-This repository is GenU challenge submission for Visual Concept Unleanring Task
+# MapRoute++
+
+This repository contains our submission to the **GenU Challenge on Visual Concept Unlearning**.
+
+## Paper
+
+[**MapRoute++: Surrogate-Guided Semantic Routing for Visual Concept Unlearning**](https://arxiv.org/abs/2608.13478)
 
 ## Table of Contents
 
 - [Environment Setup](#environment-setup)
-- [Stage 1: Train Mappers to Erase Concepts](#stage-1-train-mappers)
+- [Stage 1: Train Mappers to Erase Concepts](#stage-1-train-mappers-to-erase-concepts)
 - [Stage 2: Generate Images](#stage-2-generate-images)
 - [Stage 3: Evaluate ERR Score](#stage-3-evaluate-err-score)
 
@@ -53,7 +58,8 @@ Run:
 bash images_generation.sh
 ```
 
-**Generated images:**  [Link](https://iiithydresearch-my.sharepoint.com/:u:/g/personal/ashok_u_research_iiit_ac_in/IQCOUVqFSoZJQpUxaHWHHOyNAcL_byLqQGnt5YQxOgsyRp4?e=CeV2fg)
+**Generated Images:**  
+[Access Generated Images](https://iiithydresearch-my.sharepoint.com/:u:/g/personal/ashok_u_research_iiit_ac_in/IQCOUVqFSoZJQpUxaHWHHOyNAcL_byLqQGnt5YQxOgsyRp4?e=CeV2fg)
 
 ---
 
@@ -66,5 +72,20 @@ python3 evaluation-err-prompt.py \
     --csv challenge_dataset.csv \
     --images_dir outputs/ \
     --output_file err_results_llava.txt \
-    --llava_model_path llava-hf/llava-v1.6-mistral-7b-hf 
+    --llava_model_path llava-hf/llava-v1.6-mistral-7b-hf
+```
+
+---
+
+## Citation
+
+If you use this repository in your research, please cite our paper:
+
+```bibtex
+@article{urlana2026maproute,
+  title={MapRoute++: Surrogate-Guided Semantic Routing for Visual Concept Unlearning},
+  author={Urlana, Ashok and others},
+  journal={arXiv preprint arXiv:2608.13478},
+  year={2026}
+}
 ```
